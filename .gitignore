@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Docker and web-server files
+/web-server/*.log
+/web-server/*.pid
+/web-server/.DS_Store
+
+# Jupyter Notebook checkpoints
+/model-creation/.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Environments
+*.env
+*.env.*
+env/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# pickle fine are dangarus !!!!
+*.pkl
+
+# Ignore test results
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE specific
+.idea/
+.vscode/
