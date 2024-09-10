@@ -8,12 +8,12 @@ This FastAPI project predicts the species of iris flowers using an SVM model bas
 
 ## Steps
 first we need create the model. so go the the ``model-creation/`` directory and run the ``ml-101.ipynb`` thie will creat `svm_model_iris.pkl`
-file move the `svm_model_iris.pkl` file into `web-server` directory 
+file move the `svm_model_iris.pkl` file into `api` directory 
 
 
 ## Running with Docker
 
-1. Build the Docker image (`go to web-server/ directory`):
+1. Build the Docker image (`go to api/ directory`):
     ```bash
     docker build -t iris-prediction-api .
     ```
@@ -35,7 +35,7 @@ file move the `svm_model_iris.pkl` file into `web-server` directory
 1. Clone the repository:
     ```bash
     git clone <repository-url>
-    cd <repository-folder>/web-server
+    cd <repository-folder>/api
     ```
 
 2. Install dependencies:
